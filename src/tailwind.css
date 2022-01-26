@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social__link img {
+  height: 48px;
+  width: 48px;
+  min-height: 48px;
+  min-width: 48px;
+}
+.social__link + .social__link {
+  @apply ml-6;
+}
